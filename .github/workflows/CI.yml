@@ -19,6 +19,7 @@ jobs:
           - '2.6'
           - '2.5'
           - jruby
+          - truffleruby-head
     continue-on-error: ${{ matrix.ruby == 'head' }}
     name: Ruby ${{ matrix.ruby }}
     env:
